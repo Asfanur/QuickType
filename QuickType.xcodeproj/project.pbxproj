@@ -15,6 +15,7 @@
 		3A0E79431B5CC50D00461FB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E79421B5CC50D00461FB5 /* Images.xcassets */; };
 		3A0E79461B5CC50D00461FB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E79441B5CC50D00461FB5 /* LaunchScreen.xib */; };
 		3A0E79521B5CC50D00461FB5 /* QuickTypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E79511B5CC50D00461FB5 /* QuickTypeTests.m */; };
+		3AF287DD1B5DFA0300048A08 /* SpeechBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF287DC1B5DFA0300048A08 /* SpeechBubble.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		3A0E794B1B5CC50D00461FB5 /* QuickTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0E79501B5CC50D00461FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A0E79511B5CC50D00461FB5 /* QuickTypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTypeTests.m; sourceTree = "<group>"; };
+		3AF287DB1B5DFA0300048A08 /* SpeechBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechBubble.h; sourceTree = "<group>"; };
+		3AF287DC1B5DFA0300048A08 /* SpeechBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechBubble.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				3A0E79441B5CC50D00461FB5 /* LaunchScreen.xib */,
 				3A0E79391B5CC50D00461FB5 /* QuickType.xcdatamodeld */,
 				3A0E79321B5CC50D00461FB5 /* Supporting Files */,
+				3AF287DB1B5DFA0300048A08 /* SpeechBubble.h */,
+				3AF287DC1B5DFA0300048A08 /* SpeechBubble.m */,
 			);
 			path = QuickType;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			files = (
 				3A0E793B1B5CC50D00461FB5 /* QuickType.xcdatamodeld in Sources */,
 				3A0E79381B5CC50D00461FB5 /* AppDelegate.m in Sources */,
+				3AF287DD1B5DFA0300048A08 /* SpeechBubble.m in Sources */,
 				3A0E793E1B5CC50D00461FB5 /* ViewController.m in Sources */,
 				3A0E79351B5CC50D00461FB5 /* main.m in Sources */,
 			);
@@ -422,6 +428,7 @@
 				3A0E79571B5CC50D00461FB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A0E79581B5CC50D00461FB5 /* Build configuration list for PBXNativeTarget "QuickTypeTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				3A0E795A1B5CC50D00461FB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
