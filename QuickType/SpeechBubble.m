@@ -19,7 +19,7 @@
      [oval2Path addCurveToPoint: CGPointMake(61.1, 62.7) controlPoint1: CGPointMake(47.63, 40.69) controlPoint2: CGPointMake(47.63, 54.31)];
      oval2Path.lineCapStyle = kCGLineCapRound;
      
-     [UIColor.grayColor setStroke];
+     [self.borderColor setStroke];
      oval2Path.lineWidth = 6;
      [oval2Path stroke];
      
